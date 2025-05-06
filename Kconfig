@@ -77,7 +77,7 @@ config DOCKER
 	select MACVLAN
 	select DUMMY
 	select DEVPTS_MULTIPLE_INSTANCES
-	#select MEMCG_KMEM
+	select MEMCG_KMEM
         select NETFILTER_XT_MATCH_IPVS
         select IP_VS_RR
         #select SECURITY_APPARMOR
