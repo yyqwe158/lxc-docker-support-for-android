@@ -29,7 +29,7 @@ config DOCKER
 	select MD
 	select TTY
 	select UNIX98_PTYS
-	select HUGETLBFS # TODO: overlay?
+	#select HUGETLBFS # TODO: overlay?
 	select PERSISTENT_KEYRINGS # TODO: required?
 	select ENCRYPTED_KEYS # TODO: required?
 	select KEY_DH_OPERATIONS # TODO: required?
