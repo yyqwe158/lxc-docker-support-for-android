@@ -105,7 +105,7 @@ config DOCKER_STATISTICS
 	select BLK_CGROUP
 	select IOSCHED_CFQ
 	select CGROUP_PERF
-	select CFS_BANDWIDTH
+	#select CFS_BANDWIDTH
 
 ## Required kernel version: 4.5
 
